@@ -1,0 +1,95 @@
+input {
+  width: 300px
+
+}
+:root {
+  height: 900px;
+  width: 1920px;
+}
+.Moveme {
+  position: relative;
+  top: 31em;
+  left: 28em;
+  border-radius: 50px;
+  height: 50px;
+  width: 500px;
+  border-style:solid;
+  z-index: 1;
+}
+.Moveme:hover {
+  box-shadow: 0px 0px 10px grey;
+}
+.Moveme:focus {
+  box-shadow: 0px 0px 10px grey;
+}
+.Moveme1 {
+  position: relative;
+  top: 23em;
+  left: 48em;
+}
+.Moveme3:hover{
+  border-style: outset;
+}
+.Moveme2 {
+  position: relative;
+  top: 35em;
+  height: 30px;
+  width: 100px;
+  left: 2em;
+  border-radius: 5px;
+  border-style: hidden;
+}
+.Moveme3 {
+  position: relative;
+  top: 35em;
+  left: 2em;
+  height: 30px;
+  width: 100px;
+  border-radius: 5px;
+  border-style: hidden;
+}
+.Moveme2:hover{
+  border-style:outset;
+}
+.Link {
+  position: relative;
+  top: 27.9em;
+  left: 60em;
+}
+.text {
+  position: relative;
+  top: 30em;
+  left: 50em;
+}
+.footer1 {
+  background-color: rgb(211,211,211);
+  color: rgb(128,128,128);
+  position: relative;
+  top: 42.25em;
+  font-style: Arial;
+  height: 2em;
+  border: 1px;
+  border-style: inset;
+}
+.footer2 {
+  background-color: rgb(211,211,211);
+  color: rgb(128,128,128);
+  position: relative;
+  top: 42.3em;
+  font-style: Arial;
+  height: 2em;
+  border: 1px;
+  border-top: 0px;
+  border-style: inset;
+}
+.laurens {
+  position: relative;
+  left: 100em;
+  bottom: 1em;
+}
+.cheese {
+  position: relative;
+  top: 26.5em;
+  left: 43.1em;
+  z-index: 2;
+}
